@@ -18,9 +18,11 @@ body{
     
 }
 
+
 img{
     width: calc(1380px / 3 - 20px);
     display: block;
+    
 }
 
 .cuore{
@@ -36,6 +38,7 @@ img{
     font-size: 40px;
 
 }
+
 
 .foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
     position: relative;
@@ -69,6 +72,7 @@ img{
 
 .marca{
     font-size: 12px;
+    font-weight: initial;
     
 }
 
@@ -87,3 +91,27 @@ img{
 
 
 
+.fotob {
+    display: none;
+}
+
+
+.cuore:hover{
+    color: red;
+}
+
+.immagine1 {
+    display: block;
+}
+.immagine2 {
+    display: none;
+}
+#cambioimmagine {
+    position: relative;
+}
+#cambioimmagine:hover .foto1{
+   display: none;
+}
+#cambioimmagine:hover .fotob {
+   display: block;
+}
