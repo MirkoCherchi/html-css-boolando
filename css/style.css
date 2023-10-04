@@ -139,6 +139,7 @@ header, footer{
     right: 0;
     z-index: 1;
     top: 0;
+    box-shadow: 0px 2px 15px black;
 }
 
 .intestazioni{
