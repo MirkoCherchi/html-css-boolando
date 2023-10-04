@@ -6,6 +6,12 @@
 body{
     font-weight: bold;
 }
+
+/* #region main*/
+
+/* main */
+
+
 .conteiner-main{
     max-width: 1380px;
     display: flex;
@@ -115,3 +121,46 @@ img{
 #cambioimmagine:hover .fotob {
    display: block;
 }
+
+
+/* /main */
+/* #endregion main*/
+
+/* header */
+
+header{
+    color: white;
+}
+.conteiner-header{
+    background-color: #ff6900;
+}
+
+.intestazioni{
+    display: flex;
+    max-width: 1380px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo > img{
+    width: 200px;
+    padding: 20px;
+    margin-right: 80px;
+}
+
+/* /header */
