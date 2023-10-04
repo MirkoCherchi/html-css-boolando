@@ -32,10 +32,40 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
 
 }
 
 .foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
     position: relative;
 }
+
+.sconti{
+    position: absolute;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 7%;
+    width: 50px;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sostenibilità{
+    margin-left: 60px;
+    background-color: #008000;
+    width: 100px;
+
+}
+
+.scritta{
+    background-color: #008000;
+    width: 100px;
+}
+
+
+
 
