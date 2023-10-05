@@ -99,13 +99,13 @@ img{
 .immagine2 {
     display: none;
 }
-#cambioimmagine {
+.cambioimmagine {
     position: relative;
 }
-#cambioimmagine:hover .foto1{
+.cambioimmagine:hover .foto1{
    display: none;
 }
-#cambioimmagine:hover .fotob {
+.cambioimmagine:hover .fotob {
    display: block;
 }
 
